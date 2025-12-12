@@ -1,3 +1,8 @@
+print("sinh vien : nguyen sy anh viet ")
+
+print("ma so sv :245751030110042")
+
+print("#############################")
 n = int(input("Nhập n: "))
 
 for i in range(n):
@@ -6,3 +11,4 @@ for i in range(n):
         row[j] = prev[j-1] + prev[j]
     print(row)
     prev = row
+
