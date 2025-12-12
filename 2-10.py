@@ -1,3 +1,8 @@
+print("sinh vien : nguyen sy anh viet ")
+
+print("ma so sv :245751030110042")
+
+print("#############################")
 import math
 
 def Tinh(R):
@@ -38,3 +43,4 @@ try:
         
 except ValueError:
     print(f" Lỗi: Giá trị '{R_input}' không phải là một số hợp lệ.")
+
