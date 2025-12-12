@@ -1,3 +1,8 @@
+print("sinh vien : nguyen sy anh viet ")
+
+print("ma so sv :245751030110042")
+
+print("#############################")
 a="hello guy"
 def say ():
     global a
@@ -5,3 +10,4 @@ def say ():
     print(a)
 say()
 print(a)
+
