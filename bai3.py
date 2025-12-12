@@ -1,11 +1,15 @@
-print("sinh vien : nguyen sy anh viet")
+class Nguoi(object):
+    def getGender(self):
+        return "Unknown"
 
-print("ma so sv :245751030110042")
+class Nam(Nguoi):
+    def getGender(self):
+        return "Nam"
 
-print("#############################")
-n =int(input("enter a number--->"))
-if n% 2==0:
-    print ("even number");
-else:
-    print ("ODD Number");
-
+class Nu(Nguoi):
+    def getGender(self):
+        return "Nữ" # Corrected from "NO" in the image
+aNam = Nam()
+aNu = Nu()
+print(aNam.getGender())
+print(aNu.getGender())
