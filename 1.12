@@ -1,3 +1,8 @@
+print("sinh vien : nguyen sy anh viet ")
+
+print("ma so sv :245751030110042")
+
+print("#############################")
 import re
 value =[]
 items =[x for x in input("nhap mat khau:").split(',')]
@@ -20,6 +25,7 @@ for p in items:
     value.append(p)
     print(",".join(value))
     
+
 
 
 
